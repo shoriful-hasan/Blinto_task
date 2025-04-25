@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+    body {
+        font-family: 'Poppins', sans-serif;
+       
+      }
+
+.navberfirst{
+    width: 1440px;
+   margin: 0 auto ;
+   
+}
+.navberSecond{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+}
+.navleft{
+    display: flex;
+    align-items: center;
+
+}
+.navbermiddleUL{
+    display: flex;}
+.navbermiddleUL li{
+margin-right: 40px;
+list-style: none;
+}
+.navbermiddleUL li a{
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(33, 31, 31);
+}
+
+.Navber_third_sign ,  .Navber_third_Login{
+    padding: 15px;
+    border-radius: 40%;
+    border: none;
+    outline: 1px solid rgb(232, 226, 226);
+    background-color: rgba(156, 159, 162, 0.397);
+}
+.Navber_third_Login{
+background-color: rgba(79, 70, 229, 1);
+color: white;
+}
+.menuclose{
+    display: none;
+}
+.Gen_zside{
+    width: 1440px;
+    margin: 0 auto;
+    
+}
+
+.bannerfirst{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+.bannerfirst_image_2{
+    position: absolute;
+    right: 190px;
+    top: 120px;
+}
+.bannerwrap{
+    background:linear-gradient(
+        to bottom,
+        rgba(105, 77, 77, 0.3) 0%,   /* Top color with low opacity */
+        transparent 40%,             /* Middle transparent */
+        transparent 60%,             
+        rgba(10, 111, 243, 0.7) 100% )
+}
+
+
+.Gen_ztext h3{
+    margin: 38px 0px 12px 0px
+}
+
+.companyLogo ,
+.Our_features,
+.Word_lazy,
+.procrastinators,
+.testimonials,
+.visit_us_our, 
+.Faq,
+.row-container,
+.Download_The_App,
+.footer,
+.last_footer {
+    max-width: 1440px;
+    margin: 0 auto;
+  
+    padding: 40px;
+    background-color: rgb(240, 236, 231); 
+}
+.companyLogo_grid_Design{
+display: grid;
+grid-template-columns: repeat(6, 150px);
+justify-content: center;
+gap: 10px;
+   
+}
+.companyLogo_grid_Design div img{
+    width: 100px;
+}
+.card_design{
+   box-shadow: 2px 5px 5px 2px rgba(10, 111, 243, 0.7);
+   padding: 20px;
+    text-align: center;
+}
+
+.card_main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+   
+}
+
+
+
+.lazy_card{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.procrastinators_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 20px;
+   
+
+}
+.procrastinators_text h3{
+margin-bottom: 15px;
+font-size: 25px;
+opacity: .9;
+}
+.procrastinators_text p{
+    font-size: 22px;
+    opacity:.8;
+}
+.banner_second{
+    background: rgb(201, 211, 212);
+    position: relative;
+    width: 100%;
+}
+
+.banner_second_first img{
+    width: 80%;
+    position: absolute;
+    right: 1px;
+   
+}
+.banner_second_second img{
+    width: 80%;
+height: 100%;
+}
+.procrastinators{
+    position: relative;
+}
+.procrastinators_length{
+    position: absolute;
+    width: 5px;
+    height: 200px;
+    background: rgb(0, 162, 255);
+    top: 190px;
+}
+.procrastinators_right_first{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.procrastinators h2 {
+    font-weight:500;
+    font-size: 50px; 
+    margin-bottom: 20px;
+}
+
+.testimonials_text{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.testimonials_text span{
+    color:cornflowerblue;
+}
+.testimonials_text h2{
+    font-size: 50px;
+    opacity: .9;
+margin-bottom: 15px;
+}
+.testimonials_text p{
+    word-spacing: 1.5px;
+    opacity: .9;
+}
+
+.card_header{
+    width: 100%;
+}
+
+.card_second_header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+    
+}
+.card_ul{
+    display: flex;
+    gap: 2px;
+}
+.card_third_design{
+    display: flex;
+    gap: 8px;
+}
+.visit_us_our_text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.visit_us_our_text h2{
+    font-size: 30px;
+}
+.visit_us_our_text p{
+    font-size: 18px;
+    text-transform: capitalize;
+    opacity: .9;
+}
+
+.visit_our_card{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.visit_our_card_main_content{
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+
+.visit_our_card_main_content i{
+    color: cornflowerblue;
+}
+.visit_our_card_main_content h2{
+    font-size: 30px;
+    opacity: .7;
+}
+.visit_our_card_child{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  
+}
+
+.faq_text{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.faq_text p{
+    font-size: 22px;
+    line-height:2;
+    opacity: .8;
+}
+
+
+.row-container {
+text-align: center;
+  
+  }
+  
+  .row-header {
+  
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .row-content {
+    padding: 10px;
+    display: none; /* Hidden by default */
+    background-color: #fff;
+  }
+  
+  .Download_The_App_first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+.Download_The_App_first_right{
+    display: flex;
+    gap: 20px;
+}
+.Download_The_App_first_left h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    opacity: .7;
+}
+
+
+.Download_The_App_first_left p{
+    line-height: 2;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.Download_btn{
+    display: flex;
+    gap: 10px;
+}
+.Download_btn_first, .Download_btn_second{
+width: 100%;
+padding: 20px;
+border-radius:30px;
+}
+.Download_btn_first{
+    border: 1px solid rgba(79, 70, 229, 1);
+    font-size: 20px;
+    color : rgba(10, 111, 243, 0.7)
+}
+
+.Download_btn_second{
+    background: rgba(79, 70, 229, 1);
+    outline: none;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+.footer_design_parent{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_design_child h3{
+    margin-bottom: 20px;
+    font-size: 19px;
+    opacity: .9;
+}
+.footer_design_child ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer_design_child ul li{
+    opacity: .8;
+    text-transform: capitalize;
+}
+
+.last_footer_design{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
